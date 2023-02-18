@@ -9,7 +9,7 @@ namespace ValidateBst
         static void Main(string[] args)
         {
             #region Case__1
-            
+
             BST tree1 = new BST(10);
             BST tree2 = new BST(5);
             BST tree3 = new BST(15);
@@ -32,26 +32,26 @@ namespace ValidateBst
             #endregion
 
             PrintTree(tree1);
-            Console.WriteLine($"\nIs this tree a validate BST? {ValidateBst(tree1)} "); 
+            Console.WriteLine($"\nIs this tree a validate BST? {ValidateBst(tree1)} ");
         }
 
         #region Algo__Solution
+        
         public static bool ValidateBst(BST tree)
         {
             int minValue = Int32.MinValue;
             int maxValue = Int32.MaxValue;
-            return IsValidBST(tree,minValue,maxValue);
+            return IsValidBST(tree, minValue, maxValue);
         }
-
-        public static bool IsValidBST(BST tree,int minValue,int maxValue)
+        public static bool IsValidBST(BST tree, int minValue, int maxValue)
         {
             if (tree == null)
                 return true;
             if (tree.value < minValue || tree.value >= maxValue)
                 return false;
-            return IsValidBST(tree.left, minValue,tree.value) 
-                    && IsValidBST(tree.right, tree.value,maxValue);
+            return IsValidBST(tree.left, minValue, tree.value) && IsValidBST(tree.right, tree.value, maxValue);
         }
+
         #endregion
 
 
