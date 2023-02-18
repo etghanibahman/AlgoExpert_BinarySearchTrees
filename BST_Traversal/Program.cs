@@ -33,9 +33,9 @@ namespace BST_Traversal
 			PrintTree(tree1);
 
 			Console.WriteLine($"\nIn Order Traverse {String.Join(',',InOrderTraverse(tree1,new List<int>()))}");
-   //         Console.WriteLine($"\nPre Order Traverse {String.Join(',', PreOrderTraverse(tree1, new List<int>()))}");
-			//Console.WriteLine($"\nPost Order Traverse {String.Join(',', PostOrderTraverse(tree1, new List<int>()))}");
-		}
+            Console.WriteLine($"\nPre Order Traverse {String.Join(',', PreOrderTraverse(tree1, new List<int>()))}");
+            Console.WriteLine($"\nPost Order Traverse {String.Join(',', PostOrderTraverse(tree1, new List<int>()))}");
+        }
 		public static int counter = 0;
 		public static Stack<int> treeValuesStack = new Stack<int>();
 		public static List<int> InOrderTraverse(BST tree, List<int> array)
