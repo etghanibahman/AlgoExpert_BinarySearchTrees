@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33027.164
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLogicTrees", "SharedLogicTrees\SharedLogicTrees.csproj", "{5136765D-B34E-42CA-9494-B0318A57FF16}"
 EndProject
@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSTConstruction", "BSTConst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateBst", "ValidateBst\ValidateBst.csproj", "{F4D000D6-5498-4FE3-B4E2-C2F15A7987AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BST_Traversal", "BST_Traversal\BST_Traversal.csproj", "{3C971CA1-4665-4E45-A446-7C818BAED937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BST_Traversal", "BST_Traversal\BST_Traversal.csproj", "{3C971CA1-4665-4E45-A446-7C818BAED937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinHeightBST", "MinHeightBST\MinHeightBST.csproj", "{48ECF428-4A54-4069-AB6C-2DA59745869B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3C971CA1-4665-4E45-A446-7C818BAED937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C971CA1-4665-4E45-A446-7C818BAED937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C971CA1-4665-4E45-A446-7C818BAED937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48ECF428-4A54-4069-AB6C-2DA59745869B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48ECF428-4A54-4069-AB6C-2DA59745869B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48ECF428-4A54-4069-AB6C-2DA59745869B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48ECF428-4A54-4069-AB6C-2DA59745869B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{6362D072-1C8D-434C-95B2-74A33AAC1E21} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
 		{F4D000D6-5498-4FE3-B4E2-C2F15A7987AC} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
 		{3C971CA1-4665-4E45-A446-7C818BAED937} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
+		{48ECF428-4A54-4069-AB6C-2DA59745869B} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDFD2D93-74D9-410D-96F2-6FCACE786047}
