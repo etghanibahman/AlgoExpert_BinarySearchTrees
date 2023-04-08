@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 
 namespace MinHeightBST
 {
@@ -13,10 +14,20 @@ namespace MinHeightBST
 
         public static BST MinHeightBst(List<int> array)
         {
-            // Write your code here.
-            return null;
+            return CreateNode(array, 0, array.Count - 1);
         }
 
+        private static BST CreateNode(List<int> array, int i, int j)
+        {
+            if (i > j)
+                return null;
+            var average = (i + j) / 2;
+            var node = new BST(array[average]);
+            node.left = CreateNode(array, i, average - 1);
+            node.right = CreateNode(array, average + 1, j);
+            Console.WriteLine($"\nNode value is {node.value}");
+            return node;
+        }
         public class BST
         {
             public int value;
