@@ -37,7 +37,7 @@ namespace FindKthLargestValueInBst
             Console.WriteLine($"{k}th largest number is : {FindKthLargestValueInBst(tree1, k)}");
         }
 
-        #region Algo_Solution_____O(n)_Time_____O(n)_Space
+        #region Algo_Solution_____O(h + k)_Time_____O(h)_Space___but_here_it's_O(1)_Space
         static (int value, int numberOfNodesVisited) nodeData;
         public static int FindKthLargestValueInBst(BST tree, int k)
         {
