@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateBst", "ValidateBst\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BST_Traversal", "BST_Traversal\BST_Traversal.csproj", "{3C971CA1-4665-4E45-A446-7C818BAED937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinHeightBST", "MinHeightBST\MinHeightBST.csproj", "{48ECF428-4A54-4069-AB6C-2DA59745869B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinHeightBST", "MinHeightBST\MinHeightBST.csproj", "{48ECF428-4A54-4069-AB6C-2DA59745869B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindKthLargestValueInBst", "FindKthLargestValueInBst\FindKthLargestValueInBst.csproj", "{F89D96CE-9D6D-4136-B6DB-7E280CF391EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{48ECF428-4A54-4069-AB6C-2DA59745869B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48ECF428-4A54-4069-AB6C-2DA59745869B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48ECF428-4A54-4069-AB6C-2DA59745869B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89D96CE-9D6D-4136-B6DB-7E280CF391EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89D96CE-9D6D-4136-B6DB-7E280CF391EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89D96CE-9D6D-4136-B6DB-7E280CF391EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89D96CE-9D6D-4136-B6DB-7E280CF391EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{F4D000D6-5498-4FE3-B4E2-C2F15A7987AC} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
 		{3C971CA1-4665-4E45-A446-7C818BAED937} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
 		{48ECF428-4A54-4069-AB6C-2DA59745869B} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
+		{F89D96CE-9D6D-4136-B6DB-7E280CF391EC} = {762A528B-AB95-4708-B748-6A2F11E01AC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDFD2D93-74D9-410D-96F2-6FCACE786047}
